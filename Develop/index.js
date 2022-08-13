@@ -73,7 +73,7 @@ const questions = () => {
         type: 'input',
         name: 'license',
         message: 'Please select the license of your project: ',
-        choices: ['LGPL', 'CC', 'ISC', 'Unlicensed', 'None selected'],
+        choices: ['GNU/LGPL', 'CC', 'ISC', 'Unlicensed', 'None selected'],
         default: 'None selected'
     }])
     .then(input => {
