@@ -1,29 +1,29 @@
 
   
-  # Rough ![Project License Badge](https://img.shields.io/badge/license-None selected-brightgreen)
+  # Readme Generator ![Project License Badge](https://img.shields.io/badge/license-CC-brightgreen)
 
   ## Table of Contents
 
-  [Installation](#Installation)
-  [Usage](#Usage)
-  [Guideline](#Guideline)
-  [Tests](#Tests)
-  [Questions](#Questions)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Guideline](#Guideline)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
 
   ## Description
-  This is a Demo!
+  A simple program utilizing Node that generates a "read me" .md file 
 
   ## Installation
-  Install it!
+  Install inquirer using npm i inquirer for the package, then run the program in node
 
   ## Guidelines
-  Nope
+  None, use at will!
 
   ## Tests 
-  Run tests!
+  No testing needed
 
   ## Questions 
   Any questions you may have can be answered by reaching out to me via the email or GitHub links provided below.
 
   Email: stolleywilliam@yahoo.com
-  GitHub: [Mike](https://github.com/Mike)
+  GitHub: [MikeStolley](https://github.com/MikeStoley)
