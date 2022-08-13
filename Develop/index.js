@@ -70,11 +70,11 @@ const questions = () => {
         message: 'What are the testing instructions for your project?'
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'Please select the license of your project: ',
         choices: ['GNU/LGPL', 'CC', 'ISC', 'Unlicensed', 'None selected'],
-        default: 'None selected'
+        default: 'GNU/LGPL'
     }])
     .then(input => {
         return input;
@@ -92,7 +92,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 init = () => {
     questions()
-    ,then(input => {
+    .then(input => {
         return generateMarkdown(input);
     })
     .then(markdown => {
